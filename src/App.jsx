@@ -42,7 +42,7 @@ function App() {
   React.useEffect(() => {
     setTimeout(() => {
       setLoaded(true);
-    }, 0); // 27k
+    }, 27000); // 27k
   }, []);
   return <>{loading ? <Core /> : <Loader />}</>;
 }
