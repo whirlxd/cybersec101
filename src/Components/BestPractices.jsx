@@ -40,6 +40,7 @@ function BestPractices() {
             src2={cm}
             name="Cross Site Scripting"
             description="Learn Code Sanitization "
+            link="https://www.techtarget.com/searchsecurity/definition/cyber-hygiene"
           ></TeamMember>
         </AnimationOnScroll>
         <AnimationOnScroll animateOnce={true} animateIn="rotateInDownRight">
@@ -48,6 +49,7 @@ function BestPractices() {
             src1={sp}
             name="Key handling"
             description="Learn about .ENV"
+            link="https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa"
           ></TeamMember>
         </AnimationOnScroll>
       </div>
@@ -59,6 +61,7 @@ function BestPractices() {
             src2={dq}
             name="SQL Injection"
             description="Learn Form Validation"
+            link="https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation"
           ></TeamMember>
         </AnimationOnScroll>
         <AnimationOnScroll animateOnce={true} animateIn="rotateInUpLeft">
@@ -67,6 +70,7 @@ function BestPractices() {
             src1={sl}
             name="Preventing LFI"
             description="Learn about File Input"
+            link="https://dev.to/joannaotmianowska/the-simplest-way-to-validate-file-input-type-1dm9"
           ></TeamMember>
         </AnimationOnScroll>
       </div>
@@ -92,9 +96,9 @@ function TeamMember(props) {
         <div className="diff-resizer"></div>
       </div>
       <p className="text-2xl bold text-center">{props.name}</p>
-      <p className="btn btn-accent text-center btn-outline text-sm  ">
+      <a href={props.link} target="_blank" className="btn btn-accent text-center btn-outline text-sm  ">
         {props.description}
-      </p>
+      </a>
     </div>
   );
 }

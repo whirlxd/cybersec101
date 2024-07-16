@@ -90,7 +90,7 @@ function Faq() {
       <br></br>
       <AnimationOnScroll animateOnce={true} animateIn="zoomInUp" offset={50}>
         <a
-          href="https://discord.com/channels/922006609713066036/938986969063628862"
+          href="https://developer.mozilla.org/en-US/docs/Glossary/HTTPS"
           target="_blank"
           className="btn btn-primary btn-wide flex flex-col  mx-auto justify-center"
         >

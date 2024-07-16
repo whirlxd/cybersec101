@@ -123,8 +123,8 @@ This version should effectively communicate the risks while remaining engaging a
                 avatar="https://github.com/whirlxd.png"
                 title1="Learning "
                 title2="Projects"
-                github="https://github.com/shadowcodesyt"
-                twitter="https://twitter.com/shadowcodesyt"
+                github="https://training.linuxfoundation.org/"
+                twitter="https://training.linuxfoundation.org/"
               ></TeamMember>
 
               <TeamMember
@@ -132,8 +132,8 @@ This version should effectively communicate the risks while remaining engaging a
                 avatar="https://github.com/whirl21.png"
                 title1="Projects"
                 title2="Learning"
-                github="https://github.com/whirl21"
-                twitter="https://twitter.com/whirl_21"
+                github="https://www.channelfutures.com/connectivity/todo-group-new-linux-foundation-project-spurs-open-source-adoption"
+                twitter="https://www.linkedin.com/company/todosecurity/"
               ></TeamMember>
 
               <TeamMember
@@ -141,7 +141,7 @@ This version should effectively communicate the risks while remaining engaging a
                 avatar="https://github.com/whirl21.png"
                 title1="CTF"
                 title2="Learning"
-                github="https://github.com/whirl21"
+                github="https://www.hackthebox.com/"
                 twitter="https://twitter.com/whirl_21"
               ></TeamMember>
             </div>
@@ -152,7 +152,7 @@ This version should effectively communicate the risks while remaining engaging a
                 avatar="https://github.com/shadowcodesyt.png"
                 title1="Language"
                 title2="Database"
-                github="https://github.com/shadowcodesyt"
+                github="https://sequelpro.com/docs"
                 twitter="https://twitter.com/shadowcodesyt"
               ></TeamMember>
 
@@ -161,7 +161,7 @@ This version should effectively communicate the risks while remaining engaging a
                 avatar="https://github.com/whirl21.png"
                 title1="Documentation"
                 title2="Best Practices"
-                github="https://github.com/whirl21"
+                github="https://developer.mozilla.org/en-US/"
                 twitter="https://twitter.com/whirl_21"
               ></TeamMember>
 
@@ -170,7 +170,7 @@ This version should effectively communicate the risks while remaining engaging a
                 avatar="https://github.com/whirl21.png"
                 title1="Documentation"
                 title2="Learning"
-                github="https://github.com/whirl21"
+                github="https://www.w3schools.com/"
                 twitter="https://twitter.com/whirl_21"
               ></TeamMember>
             </div>
@@ -181,7 +181,7 @@ This version should effectively communicate the risks while remaining engaging a
                 avatar="https://github.com/shadowcodesyt.png"
                 title1="OS"
                 title2="Tools"
-                github="https://github.com/shadowcodesyt"
+                github="https://www.kali.org/"
                 twitter="https://twitter.com/shadowcodesyt"
               ></TeamMember>
 
@@ -190,7 +190,7 @@ This version should effectively communicate the risks while remaining engaging a
                 avatar="https://github.com/whirl21.png"
                 title1="Tools"
                 title2="Service"
-                github="https://github.com/whirl21"
+                github="https://zerossl.com/"
                 twitter="https://twitter.com/whirl_21"
               ></TeamMember>
 
@@ -199,8 +199,8 @@ This version should effectively communicate the risks while remaining engaging a
                 avatar="https://github.com/whirl21.png"
                 title1="Tools"
                 title2="Extension"
-                github="https://github.com/whirl21"
-                twitter="https://twitter.com/whirl_21"
+                github="https://www.youtube.com/playlist?list=PLTA92rkznIIM1RRqwz27X5xQhcB-BwqJl"
+                twitter="https://twit"
               ></TeamMember>
             </div>
             <br></br>
@@ -208,117 +208,115 @@ This version should effectively communicate the risks while remaining engaging a
         )}
 
         {!isLocked && (
-          <div className="bg-base-200">
-            <div className="hero">
-              <div className="hero-content text-center">
-                <div className="max-w-md">
-                  <AnimationOnScroll animateOnce={true} animateIn="zoomInDown">
-                    <h1 className="text-5xl font-bold  mt-10 text-nowrap">
-                      Resources++📕
-                    </h1>
-                  </AnimationOnScroll>
-                  <AnimationOnScroll
-                    animateOnce={true}
-                    animateIn="slideInDown"
-                    delay={700}
-                  >
-                    <p className="py-6 mb-5">
-                      Now that you are aware of basic cybersecurity conecepts
-                      here are some resources to get started
-                    </p>
-                  </AnimationOnScroll>
+              <div className="bg-base-200">
+              <div className="hero">
+                <div className="hero-content text-center">
+                  <div className="max-w-md">
+                    <AnimationOnScroll animateOnce={true} animateIn="zoomInDown">
+                      <h1 className="text-5xl font-bold  mt-10 text-nowrap">
+                        Resources++📕
+                      </h1>
+                    </AnimationOnScroll>
+                    <AnimationOnScroll
+                      animateOnce={true}
+                      animateIn="slideInDown"
+                      delay={700}
+                    >
+                      <p className="py-6 mb-5">
+                    A collection of handcrafted and Open Source resources to get your journey started
+                      </p>
+                    </AnimationOnScroll>
+                  </div>
                 </div>
               </div>
+              <div className="flex flex-col w-full justify-center lg:flex-row">
+                <TeamMember
+                  name="Linux Foundation"
+                  avatar="https://github.com/whirlxd.png"
+                  title1="Learning "
+                  title2="Projects"
+                  github="https://training.linuxfoundation.org/"
+                  twitter="https://training.linuxfoundation.org/"
+                ></TeamMember>
+  
+                <TeamMember
+                  name="TODO Group"
+                  avatar="https://github.com/whirl21.png"
+                  title1="Projects"
+                  title2="Learning"
+                  github="https://www.channelfutures.com/connectivity/todo-group-new-linux-foundation-project-spurs-open-source-adoption"
+                  twitter="https://www.linkedin.com/company/todosecurity/"
+                ></TeamMember>
+  
+                <TeamMember
+                  name="HackTheBox"
+                  avatar="https://github.com/whirl21.png"
+                  title1="CTF"
+                  title2="Learning"
+                  github="https://www.hackthebox.com/"
+                  twitter="https://twitter.com/whirl_21"
+                ></TeamMember>
+              </div>
+              <br></br>
+              <div className="flex flex-col w-full justify-center lg:flex-row">
+                <TeamMember
+                  name="SEQUEL"
+                  avatar="https://github.com/shadowcodesyt.png"
+                  title1="Language"
+                  title2="Database"
+                  github="https://sequelpro.com/docs"
+                  twitter="https://twitter.com/shadowcodesyt"
+                ></TeamMember>
+  
+                <TeamMember
+                  name="MDN Docs"
+                  avatar="https://github.com/whirl21.png"
+                  title1="Documentation"
+                  title2="Best Practices"
+                  github="https://developer.mozilla.org/en-US/"
+                  twitter="https://twitter.com/whirl_21"
+                ></TeamMember>
+  
+                <TeamMember
+                  name="W3School"
+                  avatar="https://github.com/whirl21.png"
+                  title1="Documentation"
+                  title2="Learning"
+                  github="https://www.w3schools.com/"
+                  twitter="https://twitter.com/whirl_21"
+                ></TeamMember>
+              </div>
+              <br></br>
+              <div className="flex flex-col w-full justify-center lg:flex-row">
+                <TeamMember
+                  name="Kali Linux"
+                  avatar="https://github.com/shadowcodesyt.png"
+                  title1="OS"
+                  title2="Tools"
+                  github="https://www.kali.org/"
+                  twitter="https://twitter.com/shadowcodesyt"
+                ></TeamMember>
+  
+                <TeamMember
+                  name="SSL Certificate Labs"
+                  avatar="https://github.com/whirl21.png"
+                  title1="Tools"
+                  title2="Service"
+                  github="https://zerossl.com/"
+                  twitter="https://twitter.com/whirl_21"
+                ></TeamMember>
+  
+                <TeamMember
+                  name="Browser101"
+                  avatar="https://github.com/whirl21.png"
+                  title1="Tools"
+                  title2="Extension"
+                  github="https://www.youtube.com/playlist?list=PLTA92rkznIIM1RRqwz27X5xQhcB-BwqJl"
+                  twitter="https://twit"
+                ></TeamMember>
+              </div>
+              <br></br>
             </div>
-            <div className="flex flex-col w-full justify-center lg:flex-row">
-              <TeamMember
-                name="Linux Foundation"
-                avatar="https://github.com/whirlxd.png"
-                title1="Learning "
-                title2="Projects"
-                github="https://github.com/shadowcodesyt"
-                twitter="https://twitter.com/shadowcodesyt"
-              ></TeamMember>
-
-              <TeamMember
-                name="TODO Group"
-                avatar="https://github.com/whirl21.png"
-                title1="Projects"
-                title2="Learning"
-                github="https://github.com/whirl21"
-                twitter="https://twitter.com/whirl_21"
-              ></TeamMember>
-
-              <TeamMember
-                name="HackTheBox"
-                avatar="https://github.com/whirl21.png"
-                title1="CTF"
-                title2="Learning"
-                github="https://github.com/whirl21"
-                twitter="https://twitter.com/whirl_21"
-              ></TeamMember>
-            </div>
-            <br></br>
-            <div className="flex flex-col w-full justify-center lg:flex-row">
-              <TeamMember
-                name="SEQUEL"
-                avatar="https://github.com/shadowcodesyt.png"
-                title1="Language"
-                title2="Database"
-                github="https://github.com/shadowcodesyt"
-                twitter="https://twitter.com/shadowcodesyt"
-              ></TeamMember>
-
-              <TeamMember
-                name="MDN Docs"
-                avatar="https://github.com/whirl21.png"
-                title1="Documentation"
-                title2="Best Practices"
-                github="https://github.com/whirl21"
-                twitter="https://twitter.com/whirl_21"
-              ></TeamMember>
-
-              <TeamMember
-                name="W3School"
-                avatar="https://github.com/whirl21.png"
-                title1="Documentation"
-                title2="Learning"
-                github="https://github.com/whirl21"
-                twitter="https://twitter.com/whirl_21"
-              ></TeamMember>
-            </div>
-            <br></br>
-            <div className="flex flex-col w-full justify-center lg:flex-row">
-              <TeamMember
-                name="Kali Linux"
-                avatar="https://github.com/shadowcodesyt.png"
-                title1="OS"
-                title2="Tools"
-                github="https://github.com/shadowcodesyt"
-                twitter="https://twitter.com/shadowcodesyt"
-              ></TeamMember>
-
-              <TeamMember
-                name="SSL Certificate Labs"
-                avatar="https://github.com/whirl21.png"
-                title1="Tools"
-                title2="Service"
-                github="https://github.com/whirl21"
-                twitter="https://twitter.com/whirl_21"
-              ></TeamMember>
-
-              <TeamMember
-                name="Browser101"
-                avatar="https://github.com/whirl21.png"
-                title1="Tools"
-                title2="Extension"
-                github="https://github.com/whirl21"
-                twitter="https://twitter.com/whirl_21"
-              ></TeamMember>
-            </div>
-            <br></br>
-            <Footer />
-          </div>
         )}
       </div>
       {isLocked && (
